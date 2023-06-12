@@ -78,6 +78,9 @@ ul.icon{
     justify-content: space-between;
 }
 
+img:hover{
+    opacity: 0.75;
+}
 
 h3 {
     margin: 0rem 1rem 0.5rem;
@@ -98,8 +101,8 @@ article {
     display: grid;
     gap: 26px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin-top: 6%;
-    margin-bottom: 50px;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 article p{
