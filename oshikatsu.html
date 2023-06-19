@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="description" content="手帳リフィル配布サイト">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/lightbox.min.css">
+        <script src="js/script.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
@@ -22,38 +24,67 @@
 
         <nav>
             <ul class="main-nav">
-                <li><a href="#ABOUT">ABOUT</a></li>
-                <li><a href="#IMAGEUSED">IMAGE USED</a></li>
-                <li><a href="#CATEGORY">CATEGORY</a></li>
-                <li><a href="#TERMSOFUSE">TERMSOFUSE</a></li>
-                <li><a href="#FAQ">FAQ</a></li>
-                <li><a href="#CONTACT">CONTACT</a></li>
+                <li><a href="index.html#ABOUT">ABOUT</a></li>
+                <li><a href="index.html#IMAGEUSED">IMAGE USED</a></li>
+                <li><a href="index.html#CATEGORY">CATEGORY</a></li>
+                <li><a href="index.html#TERMSOFUSE">TERMSOFUSE</a></li>
+                <li><a href="index.html#FAQ">FAQ</a></li>
+                <li><a href="index.html#CONTACT">CONTACT</a></li>
             </ul>
         </nav>
 
         <h2>使い方</h2>
         <article>
-            <p>リフィルは手帳用、スマホ用どちらもPDFで配布しています。ダウンロードしたいリフィルをクリックしてダウンロードして下さい。</p>
-            <P>手帳用の場合はお持ちのプリンターで印刷したのち、余白をカットまたは穴あけパンチで穴をあけてご利用ください。</P>
-            <P>スマホ用はダウンロードしたらアプリや写真編集機能でテキストを入力してお使いください。</P>
+            <p>リフィルは手帳用、スマホ用どちらもPDFで配布しています。リフィルの下のダウンロードボタンをクリックしてダウンロードして下さい</p>
+            <P>手帳用の場合はお持ちのプリンターまたはコンビニのコピー機などで印刷したのち、余白をカットして手帳に張り付けてご利用ください</P>
+            <P>スマホ用はダウンロードしたらアプリや写真編集機能でテキストを入力してお使いください</P>
         </article>
 
         <h2>推し活手帳用</h2>
-        <article>
-        <div class="wrapper grid">
-            <img src="images/推し紹介シート.png" width="200" height="300" alt="">
-            <img src="images/推し活ライブレポート.png" width="200" height="300" alt="">
-            <img src="images/推しプレイリスト.png" width="200" height="300" alt="">
-        </div>
+        <article class="wrapper grid">
+            <div class="item">
+                <a href="images/推し紹介シート.png" data-lightbox="リフィル"><img src="images/推し紹介シート.png" alt="" ></a>
+                <div class="refill"><p>推し紹介シート</p></div>
+                    <a href="images/推し紹介シートB5.pdf" download="推し紹介シート"><img src="images/B5ダウンロード.png"></a>
+                    <a href="images/推し紹介シートB6.pdf" download="推し紹介シート"><img src="images/B6ダウンロード.png"></a>
+                </div>
+            <div class="item">
+                <a href="images/推し活ライブレポート.png" data-lightbox="リフィル"><img src="images/推し活ライブレポート.png" alt="" ></a>
+                <div class="refill"><p>推し活ライブレポート</p></div>
+                    <a href="images/推し活ライブレポートB5.pdf" download="推し活ライブレポート"><img src="images/B5ダウンロード.png"></a>
+                    <a href="images/推し活ライブレポートB6.pdf" download="推し活ライブレポート"><img src="images/B6ダウンロード.png"></a>
+                </div>
+            <div class="item">
+                <a href="images/推しプレイリスト.png" data-lightbox="リフィル"><img src="images/推しプレイリスト.png" alt="" ></a>
+                <div class="refill"><p>推しプレイリスト</p></div>
+                    <a href="images/推しプレイリストB5.pdf" download="推しプレイリスト"><img src="images/B5ダウンロード.png"></a>
+                    <a href="images/推しプレイリストB6.pdf" download="推しプレイリスト"><img src="images/B6ダウンロード.png"></a>
+                </div>
         </article>
 
          <h2>推し活スマホ用</h2>
-        <article>
-        <div class="wrapper grid">
-            <img src="images/推し紹介シート.png" width="200" height="300" alt="">
-            <img src="images/推し活ライブレポート.png" width="200" height="300" alt="">
-            <img src="images/推しプレイリスト.png" width="200" height="300" alt="">
-        </div>
+         <article class="wrapper grid">
+            <div class="item">
+                <a href="images/推し紹介シート.png" data-lightbox="リフィル"><img src="images/推し紹介シート.png" alt="" ></a>
+                <div class="refill"><p>推し紹介シート</p></div>
+                    <a href="images/推し紹介シートB6.pdf" download="推し紹介シート"><img src="images/スマホ用ダウンロード.png"></a>
+                </div>
+            <div class="item">
+                <a href="images/推し活ライブレポート.png" data-lightbox="リフィル"><img src="images/推し活ライブレポート.png" alt="" ></a>
+                <div class="refill"><p>推し活ライブレポート</p></div>
+                    <a href="images/推し活ライブレポートB6.pdf" download="推し活ライブレポート"><img src="images/スマホ用ダウンロード.png"></a>
+                </div>
+            <div class="item">
+                <a href="images/推しプレイリスト.png" data-lightbox="リフィル"><img src="images/推しプレイリスト.png" alt="" ></a>
+                <div class="refill"><p>推しプレイリスト</p></div>
+                    <a href="images/推しプレイリストB6.pdf" download="推しプレイリスト"><img src="images/スマホ用ダウンロード.png"></a>
+                </div>
         </article>
         
+        <footer>
+            <p>Pen　Plan</p>
+            <p>2023</p>
+        </footer>
+
+        <script src="lightbox-plus-jquery.min.js"></script>
     </body>
