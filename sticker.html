@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="description" content="手帳リフィル配布サイト">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/lightbox.min.css">
+        <script src="js/script.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
@@ -22,27 +24,47 @@
 
         <nav>
             <ul class="main-nav">
-                <li><a href="#ABOUT">ABOUT</a></li>
-                <li><a href="#IMAGEUSED">IMAGE USED</a></li>
-                <li><a href="#CATEGORY">CATEGORY</a></li>
-                <li><a href="#TERMSOFUSE">TERMSOFUSE</a></li>
-                <li><a href="#FAQ">FAQ</a></li>
-                <li><a href="#CONTACT">CONTACT</a></li>
+                <li><a href="index.html#ABOUT">ABOUT</a></li>
+                <li><a href="index.html#IMAGEUSED">IMAGE USED</a></li>
+                <li><a href="index.html#CATEGORY">CATEGORY</a></li>
+                <li><a href="index.html#TERMSOFUSE">TERMSOFUSE</a></li>
+                <li><a href="index.html#FAQ">FAQ</a></li>
+                <li><a href="index.html#CONTACT">CONTACT</a></li>
             </ul>
         </nav>
 
         <h2>使い方</h2>
         <article>
-            <p>PDFで配布しています。ダウンロードしたいリフィルをクリックしてダウンロードして下さい。</p>
-            <P>シールシートはコピー用紙またはラベルシートに印刷してお好きなようにお使いください。</P>
+            <p>PDFで配布しています。リフィルの下のダウンロードボタンをクリックしてダウンロードして下さい</p>
+            <P>シールシートはコピー用紙またはラベルシートに印刷してお好きなようにお使いください</P>
         </article>
 
         <h2>シールシート手帳用</h2>
-        <article>
-        <div class="wrapper grid">
-            <img src="images/シールシート1.png" width="200" height="300" alt="">
-            <img src="images/シールシート2.png" width="200" height="300" alt="">
-            <img src="images/シールシート3.png" width="200" height="300" alt="">
+        <article class="wrapper grid">
+            <div class="item">
+                <a href="images/シールシート1.png" data-lightbox="リフィル"><img src="images/シールシート1.png" alt="" ></a>
+            <div class="refill" ><p>シールシート1</p></div>  
+                <a href="images/シールシート1B5.pdf" download="シールシート1"><img src="images/B5ダウンロード.png"></a>
+                <a href="images/シールシート1B6.pdf" download="シールシート1"><img src="images/B6ダウンロード.png"></a>
+            </div>
+            <div class="item">
+                <a href="images/シールシート2.png" data-lightbox="リフィル"><img src="images/シールシート2.png" alt="" ></a>
+                <div class="refill"><p>シールシート2</p></div>
+                    <a href="images/シールシート2B5.pdf" download="シールシート2"><img src="images/B5ダウンロード.png"></a>
+                    <a href="images/シールシート2B6.pdf" download="シールシート2"><img src="images/B6ダウンロード.png"></a>
+                </div>
+            <div class="item">
+                <a href="images/シールシート3.png" data-lightbox="リフィル"><img src="images/シールシート3.png" alt="" ></a>
+                <div class="refill"><p>シールシート3</p></div>
+                    <a href="images/シールシート3B5.pdf" download="シールシート3"><img src="images/B5ダウンロード.png"></a>
+                    <a href="images/シールシート3B6.pdf" download="シールシート3"><img src="images/B6ダウンロード.png"></a>
+                </div>
         </article>
-        </div>
+
+        <footer>
+            <p>Pen　Plan</p>
+            <p>2023</p>
+        </footer>
+        
+        <script src="lightbox-plus-jquery.min.js"></script>
     </body>
