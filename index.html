@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="description" content="手帳リフィル配布サイト">
         <link rel="stylesheet" href="css/style.css">
-        <script src="js/script.js"></script>
+        
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
@@ -14,11 +14,24 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script src="js/script.js"></script>
+
+        <script>
+            $(document).ready(function(){
+              $(".slider").bxSlider({
+                auto: true,
+                autoplaySpeed: 2000,
+                mode: 'fade',
+                speed: 1000,
+              });
+            });
+          </script>
 
         <link href="js/slick-theme.css" rel="stylesheet" type="text/css">
         <link href="js/slick.css" rel="stylesheet" type="text/css">
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-        <script type="text/javascript" src="js/slick.min.js"></script>
+<!--         
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>-->
+        <script type="text/javascript" src="js/slick.min.js"></script> 
 
         <title>PenPlan</title>
     </head>
@@ -51,19 +64,19 @@
 
                 <h2 id="IMAGEUSED">IMAGE USED</h2>
                     <ul class="slider">
-                      <li><img src="images/スライダー1.PNG" title="使用例"></li>
-                      <li><img src="images/スライダー2.PNG" title="使用例"></li>
-                      <li><img src="images/スライダー3.PNG" title="使用例"></li>
-                      <li><img src="images/スライダー4.png" title="使い方"></li>
-                      <li><img src="images/スライダー5.png" title="使い方"></li>
+                      <li><img src="images/slider1.PNG" title="使用例"></li>
+                      <li><img src="images/slider2.PNG" title="使用例"></li>
+                      <li><img src="images/slider3.PNG" title="使用例"></li>
+                      <li><img src="images/slider4.png" title="使い方"></li>
+                      <li><img src="images/slider5.png" title="使い方"></li>
                     </ul>
 
                 <h2 id="CATEGORY">CATEGORY</h2>
 
                 <ul class="icon">
-                    <a href="oshikatsu.html"><img src="images/推し活リフィルアイコン.PNG" width="300" height="300" alt=""></a>
-                    <a href="ohuzake.html"><img src="images/おふざけリフィルアイコン.PNG" width="300" height="300" alt=""></a>
-                    <a href="sticker.html"><img src="images/シールシートアイコン.PNG" width="300" height="300" alt=""></a>
+                    <a href="oshikatsu.html"><img src="images/oshikatsuicon.PNG" width="300" height="300" alt=""></a>
+                    <a href="ohuzake.html"><img src="images/ohuzakeicon.png" width="300" height="300" alt=""></a>
+                    <a href="sticker.html"><img src="images/stickericon.PNG" width="300" height="300" alt=""></a>
                 </ul>
 
 
@@ -97,8 +110,8 @@
                  <h2 id="CONTACT">CONTACT</h2>
                   <article>
                       <ul class="contact">
-                          <a href="mailto:m1k03535@gmai.com"><img src="images/Gmailアイコン.png" width="48" height="48" alt=""></a>
-                          <a href="https://www.instagram.com/miko09110120/"><img src="images/インスタアイコン.png" width="45" height="45" alt=""></a>
+                          <a href="mailto:m1k03535@gmai.com"><img src="images/Gmailicon.png" width="43" height="43" alt=""></a>
+                          <a href="https://www.instagram.com/miko09110120/"><img src="images/instagramicon.png" width="40" height="40" alt=""></a>
                       </ul>
                   </article>
 
